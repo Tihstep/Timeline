@@ -70,7 +70,6 @@ timelineItems.forEach((item, index) => {
     
             let modal;
             if (/\.(jpg|jpeg|png|gif|webp)$/i.test(item.src))  {
-                console.log(item)
                 modal = document.createElement('img');
                 modal.src = item.src;
             } else {
